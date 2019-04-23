@@ -75,3 +75,5 @@ Route::prefix('admin')->group(function () {
         Route::post('update', 'RoleController@update')->name('role.admin.update');
     });
 });
+
+Route::get('/cart','HomeController@cart');
